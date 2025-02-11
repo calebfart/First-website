@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(to left,rgb(142, 218, 225), rgb(239, 229, 222));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+    h1{
+        font-style: italic;
+        text-align: center;
+    }
+.navbar ul{
+    list-style-type: none;
+    background: linear-gradient(to right,rgb(142, 218, 225), rgb(239, 229, 222));
+    padding: 10px 0;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.navbar a:hover{
+    background-color: rgb(44, 88, 222);border-radius: 5px;
+}
+.navbar li{
+    float: left;
+}
+table{
+    background-color: aqua;
+}
